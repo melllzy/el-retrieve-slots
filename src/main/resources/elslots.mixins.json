@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.alash.elslots.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "elslots.refmap.json",
+  "mixins": [
+    "StorageCrystalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
