@@ -9,6 +9,7 @@ to the slots they were in when you died, instead of being dumped into the invent
 ## Features
 - Restores items to their original slots: hotbar, main inventory, armor, offhand.
 - Supports **Curios** slots, including cosmetic Curios slots.
+- Supports **Cosmetic Armor Reworked** slots (optional).
 - If a slot is already taken (or the item no longer fits there), the item simply goes into the inventory as usual.
 - The slot layout is saved inside the vessel itself, so it survives server restarts.
 - Vessels created before the mod was installed keep working the old way.
@@ -58,6 +59,7 @@ MIT — see [LICENSE](LICENSE).
 ## Возможности
 - Возвращает вещи в их слоты: хотбар, инвентарь, броня, вторая рука.
 - Поддерживает слоты **Curios**, включая косметические.
+- Поддерживает слоты **Cosmetic Armor Reworked** (если мод установлен).
 - Если слот уже занят (или вещь туда больше не подходит), она просто ложится в инвентарь, как обычно.
 - Раскладка хранится внутри самого сосуда и переживает перезапуск сервера.
 - Сосуды, созданные до установки мода, работают по-старому.

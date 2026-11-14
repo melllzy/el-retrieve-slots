@@ -40,6 +40,6 @@ public abstract class StorageCrystalMixin {
     @Inject(method = "retrieveDropsFromCrystal", at = @At("RETURN"))
     private void elslots$end(ItemStack crystal, Player player, ItemStack soulCrystal,
                              CallbackInfoReturnable<ItemStack> cir) {
-        SlotMemory.end();
+        SlotMemory.end(player);
     }
 }

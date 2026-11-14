@@ -56,11 +56,14 @@ dependencies {
     // Enigmatic Legacy 2.26.5 and Curios 1.19.2-5.1.6.4: compiled against, not shipped
     compileOnly fg.deobf("curse.maven:enigmatic-legacy-336184:4392950")
     compileOnly fg.deobf("curse.maven:curios-309927:5843737")
+    // Cosmetic Armor Reworked 1.19.2-v1a (optional at runtime)
+    compileOnly fg.deobf("curse.maven:cosmetic-armor-reworked-237307:4016732")
     // ...and loaded in the dev server/client used to test the mixins (Enigmatic Legacy needs Caelus and Patchouli)
     runtimeOnly fg.deobf("curse.maven:enigmatic-legacy-336184:4392950")
     runtimeOnly fg.deobf("curse.maven:curios-309927:5843737")
     runtimeOnly fg.deobf("curse.maven:caelus-308989:3929284")
     runtimeOnly fg.deobf("curse.maven:patchouli-306770:4031402")
+    runtimeOnly fg.deobf("curse.maven:cosmetic-armor-reworked-237307:4016732")
 }
 
 tasks.named('processResources', ProcessResources).configure {
